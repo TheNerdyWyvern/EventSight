@@ -1,0 +1,49 @@
+body {
+    background-color: #eeedf2;
+    color: #6f7287;
+    font-family: "Neue Plak", sans-serif;
+}
+
+.home-link {
+    color: #f05537;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 20px;
+}
+
+span {
+    display: grid;
+    grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    justify-content: center;
+}
+
+.credentials {
+    background-color: white;
+    border: none;
+}
+
+.credentials::placeholder {
+    color: #f05537;
+    opacity: 0.7;
+}
+
+#username {
+    border-bottom: solid #6f7287;
+}
+
+#password-reset {
+    text-decoration: none;
+    color: #f05537;
+    margin: 5px;
+}
+
+#submit-button {
+    border: solid 1px;
+    color: #6f7287;
+    box-shadow: 2px 2px 3px #6f7287;
+}
+
+#submit-button:hover {
+    color: #f05537;
+    box-shadow: 2px 2px 3px #f05537;
+}

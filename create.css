@@ -1,0 +1,29 @@
+body {
+    background-color: #eeedf2;
+    color: black;
+    font-family: "Neue Plak", sans-serif;
+}
+
+.home-link {
+    color: #f05537;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 20px;
+}
+
+div {
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-areas: "h1" "h2";
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
